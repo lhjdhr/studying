@@ -1,0 +1,24 @@
+一、路由结构-------------------------------------------
+    1.app.js只作为路由，利于开发维护
+    2.app.js(路由)--查看记录
+                  --查看计划
+                  //--添加计划
+    3.router    --index.js//用来配置前台的路由
+                --admin.js//用来配置后台管理模块的路由
+二、板块的引入-----------------------------------------
+    1.引入头部<%-include public/header.ejs%>
+三、依赖包的作用---------------------------------------
+    1.body-parser --用于上传文件
+    2.ejs --模板引擎,默认找views的视图目录 ，app.set('view engine',ejs)
+
+
+   红色：bg-pink {
+          background-color: #E91E63 !important;
+          color: #fff;
+   蓝色：    background-color: #00BCD4 !important;
+          color: #fff;
+   绿色：    background-color: #8BC34A !important;
+          color: #fff;
+   黄色：    background-color: #FF9800 !important;
+          color: #fff;
+

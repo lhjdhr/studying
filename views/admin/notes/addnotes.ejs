@@ -1,0 +1,49 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>添加</title>
+</head>
+<link rel="stylesheet" type="text/css" href="/static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" href="/static/h-ui.admin/css/style.css">
+<body>
+<form action="/admin/notes/doAdd" method="post" enctype="multipart/form-data">
+  <div class="row">
+    <label class="col-xs-4 col-sm-2">type_id:</label>
+    <div class="col-xs-8 col-sm-4"><input type="text" name="type_id"></div>
+  </div>
+  <div class="row">
+    <label class="col-xs-4 col-sm-2">planner:</label>
+    <div class="col-xs-8 col-sm-4"><input type="text" name="planner"></div>
+  </div>
+  <div class="row">
+    <label class="col-xs-4 col-sm-2">members:</label>
+    <div class="col-xs-6 col-sm-4"><input type="text" name="members"></div>
+  </div>
+  <div class="row">
+    <label class="col-xs-4 col-sm-2">name:</label>
+    <div class="col-xs-6 col-sm-4"><input type="text" name="name"></div>
+  </div>
+  <div class="row">
+    <label class="col-xs-4 col-sm-2">starttime:</label>
+    <div class="col-xs-6 col-sm-4"><input type="text" name="starttime"></div>
+  </div>
+  <div class="row">
+    <label class="col-xs-4 col-sm-2">sources:</label>
+    <div class="col-xs-6 col-sm-4"><input type="text" name="sources"></div>
+  </div>
+  <div class="row">
+    <label class="col-xs-4 col-sm-2">link:</label>
+    <div class="col-xs-6 col-sm-4"><input type="text" name="link"></div>
+  </div>
+  <div class="row">
+    <label class="col-xs-4 col-sm-2"> </label>
+    <div class="col-xs-6 col-sm-4">
+      <button  class="btn btn-success radius btn-style"  type="submit"> 提&nbsp;&nbsp;交</button>
+      <button   class="btn btn-default radius" type="button"> 取&nbsp;&nbsp;消</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>

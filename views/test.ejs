@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <!--<script>-->
+      <!--onload = function(){-->
+          <!--var users = document.getElementById('users').innerHTML;-->
+          <!--var names = ['loki', 'tobi', 'jane'];-->
+          <!--var html = ejs.render(users, { names: names });-->
+          <!--document.body.innerHTML = html;-->
+      <!--}-->
+
+</head>
+<body>
+<% if (user.uid.length > 0) { %>
+
+<a href="#"><%= user.uid%></a><a href="#"><i class="caret down icon"></i></a>
+
+<% } else { %>
+
+<a href="#">Login</a>
+
+<% } %>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8">
+  <title>$Title$</title>
+</head>
+<body>
+<table class="table table-striped">
+  <thead>
+
+ <tr>
+   <th>编号</th>
+   <th>图标</th>
+     <%if(list[0].type_name=="letcure"){%>
+   <th style="display: block">名称</th>
+     <%}%>
+     <%if(list[0].type_name=="algorithm"){%>
+   <th style="display: block">训练的点点滴滴</th>
+     <%}%>
+   <th>价格</th>
+   <th>邮费</th>
+   <th class="text-center">操作</th>
+ </tr>
+
+  </thead>
+  <tbody>
+  <%for(var i=0;i<list.length;i++){%>
+  <tr>
+    <td><%=i+1%></td>
+    <td><img src="/<%=list[i].pic%>" width="50"></td>
+    <td><%=list[i].planner%></td>
+    <td><%=list[i].name%></td>
+    <td><%=list[i].starttime%></td>
+    <td class="text-center">
+      <a href="/admin/product/edit?id=<%=list[i]._id%>" class="btn btn-success">修改</a>
+      <a href="/admin/product/delete?id=<%=list[i]._id%>" class="btn btn-danger">删除</a>
+    </td>
+  </tr>
+  <%}%>
+  </tbody>
+</table>
+</body>
+</html>

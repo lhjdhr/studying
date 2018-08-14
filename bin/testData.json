@@ -1,0 +1,36 @@
+{
+  "study":[{
+    "id":1,
+    "type_name":"讲课",
+    "planner":"张三",
+    "members":null,
+    "name":"课题",
+    "starttime":"2018-08-08",
+    "endtime":"2018-08-08",
+    "source":"letCode",
+    "link":"https://gitee.com/organizations/wlgzs/projects",
+    "type_id":111
+  },{
+    "id":2,
+    "type_name":"讲课2",
+    "planner":"李四",
+    "members":null,
+    "name":"课题",
+    "starttime":"2018-08-08",
+    "endtime":"2018-08-08",
+    "source":"letCode",
+    "link":"https://gitee.com/organizations/wlgzs/projects",
+    "type_id":222
+  },{
+    "id":3,
+    "type_name":"讲课3",
+    "planner":"王五",
+    "members":null,
+    "name":"课题",
+    "starttime":"2018-08-08",
+    "endtime":"2018-08-08",
+    "source":"letCode",
+    "link":"https://gitee.com/organizations/wlgzs/projects",
+    "type_id":333
+  }]
+}

@@ -1,0 +1,73 @@
+#list dl dt a{
+    text-decoration: none !important;
+}
+.navbar-wrapper{
+    background: #00CC99;
+    /*background: #33b2ef;*/
+}
+.Hui-aside .menu_dropdown dt:hover{  color: #148cf1;background-color: #fafafa;z-index: 1}
+#caution {
+    width: 5px;
+    height: 44px;
+    background-color: #00CC99;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    z-index: 10;
+}
+#list {
+    position: absolute;
+    top:15px
+}
+#list{
+    width: 100%;
+    height: 44px;
+    float: left;
+    cursor: pointer;
+}
+ul,li { padding: 0; margin: 0; }
+li { list-style: none; }
+.menu li a{
+    color: #333;
+}
+ /*添加提交的表单*/
+ .row{
+     width: 100%;
+     margin-top:20px;
+     box-sizing: border-box;
+     margin-left: -15px;
+     margin-right: -15px;
+     height: 31px;
+ }
+.row label{
+    text-align: right;
+    margin-top: 3px;
+    cursor: text;
+    color: #555;
+
+}
+.row input{
+    box-sizing: border-box;
+    border:1px solid #ddd;
+    width:100%;
+    -webkit-transition: all .2s linear 0s;
+    transition: all .2s linear 0s;
+    font-size: 14px;
+    height: 31px;
+    line-height: 1.42857;
+    padding: 4px;
+    text-indent: 5px;
+    border-radius: 3px;
+}
+.row input:hover{
+    border: solid 1px #3bb4f2;
+}
+.row button{
+    width: 120px;
+    float: right;
+}
+.row button:first-child{
+    float: left;
+}
+
+

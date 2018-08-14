@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+    <title>资讯列表</title>
+</head>
+<style>
+    .row{
+        width: 100%;
+        margin-top:15px;
+        box-sizing: border-box;
+        margin-left: -15px;
+        margin-right: -15px;
+        height: 31px;
+    }
+    .row label{
+        text-align: right;
+        margin-top: 3px;
+        cursor: text;
+        color: #555;
+
+    }
+    .row input{
+        box-sizing: border-box;
+        border:1px solid #ddd;
+        width:100%;
+        -webkit-transition: all .2s linear 0s;
+        transition: all .2s linear 0s;
+        font-size: 14px;
+        height: 31px;
+        line-height: 1.42857;
+        padding: 4px;
+        text-indent: 5px;
+        border-radius: 3px;
+    }
+    .row input:hover{
+        border: solid 1px #3bb4f2;
+    }
+</style>
+<body>
+<form action="/doAdd" method="post">
+    <div class="row">
+        <label class="col-xs-4 col-sm-2">id:</label>
+        <div class="col-xs-8 col-sm-5"><input type="text"></div>
+    </div>
+    <div class="row">
+        <label class="col-xs-4 col-sm-2">planner:</label>
+        <div class="col-xs-8 col-sm-5"><input type="text"></div>
+    </div>
+    <div class="row">
+        <label class="col-xs-4 col-sm-2">members:</label>
+        <div class="col-xs-8 col-sm-5"><input type="text"></div>
+    </div>
+    <div class="row">
+        <label class="col-xs-4 col-sm-2">name:</label>
+        <div class="col-xs-8 col-sm-5"><input type="text"></div>
+    </div>
+    <div class="row">
+        <label class="col-xs-4 col-sm-2">starttime:</label>
+        <div class="col-xs-8 col-sm-5"><input type="text"></div>
+    </div>
+    <div class="row">
+        <label class="col-xs-4 col-sm-2">sources:</label>
+        <div class="col-xs-8 col-sm-5"><input type="text"></div>
+    </div>
+    <div class="row">
+        <label class="col-xs-4 col-sm-2">link:</label>
+        <div class="col-xs-8 col-sm-5"><input type="text"></div>
+    </div>
+    <div class="row">
+        <button  class="btn btn-primary radius btn-style" type="submit"> 提&nbsp;&nbsp;交</button>
+        <button   class="btn btn-default radius" type="button"> 取&nbsp;&nbsp;消</button>
+    </div>
+</form>
+</body>
+</body>
+</html>
